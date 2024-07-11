@@ -1,0 +1,33 @@
+type: object
+properties:
+  id:
+    type: string
+    format: uuid
+    description: Unique identifier representing a specific product
+  description:
+    type: string
+    description: The description of the product
+  dimentions:
+    $ref: dimentions.yaml
+  categories:
+    type: array
+    items: 
+      $ref: category.yaml
+  images:
+    type: array
+    items: 
+      $ref: image.yaml
+  price:
+    type: string
+    pattern: ^-?(?:0|[1-9]\d{0,2}(?:,?\d{3})*)(?:\.\d{1,2})?$
+  cost:
+    type: string
+    pattern: ^-?(?:0|[1-9]\d{0,2}(?:,?\d{3})*)(?:\.\d{1,2})?$
+  dateCreated:
+    type: string
+    format: date-time
+    description: The date the image was created
+  dateUpdated:
+    type: string
+    format: date-time
+    description: The date the image was last updated

@@ -1,9 +1,9 @@
 get:
   tags:
-    - Customer
-  summary: Get a list of customers
-  description: Get a list of customers.
-  operationId: listCustomers
+    - Products
+  summary: Get a list of products
+  description: Get a list of products.
+  operationId: listProducts
   responses:
     '200':
       description: Success
@@ -11,8 +11,8 @@ get:
         application/json:
           schema:
             type: array
-            items:
-              $ref: ../../components/schemas/v1/customer.yaml
+            items: 
+              $ref: ../../components/schemas/v1/product.yaml
     '400':
       description: Bad Request
     '404':

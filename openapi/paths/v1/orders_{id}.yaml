@@ -1,6 +1,6 @@
 get: 
   tags: 
-    -  Orders
+    - Order
   summary: Get a order by ID
   description: |
     Get a order by ID.

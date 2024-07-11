@@ -14,10 +14,12 @@ properties:
     type: string
     minLength: 3
     maxLength: 255
+    example: example@email.com
   phone:
     type: string
     minLength: 7
     maxLength: 15
+    example: 800-555-1212
   paymentMethods:
     type: array
     items: 

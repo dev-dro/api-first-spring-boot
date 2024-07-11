@@ -8,14 +8,19 @@ properties:
     type: string
     minLength: 2
     maxLength: 100
+    example: My Chase Card
   cardNumber:
     type: string
+    example: 4111111111111111
   expiryMonth:
     type: integer
+    example: 12
   expiryYear:
     type: integer
+    example: 2032
   cvv:
     type: string
+    example: 123
   dateCreated:
     type: string
     format: date-time

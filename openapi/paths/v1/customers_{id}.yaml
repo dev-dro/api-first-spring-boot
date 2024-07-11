@@ -1,6 +1,6 @@
 get: 
   tags: 
-    -  Customer
+    - Customer
   summary: Get a customer by ID
   description: |
     Get a customer by ID.

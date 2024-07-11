@@ -22,10 +22,10 @@ externalDocs:
 tags:
   - name: Customer
     description: "Customer operations."
-  - name: Products
-    description: "Products operations."
+  - name: Product
+    description: "Product operations."
   - name: Order
-    description: "Orders operations."
+    description: "Order operations."
 x-tagGroups:
   - name: General
     tags:

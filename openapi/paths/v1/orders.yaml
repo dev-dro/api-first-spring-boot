@@ -1,7 +1,6 @@
-
 get:
   tags:
-    - Orders
+    - Order
   summary: Get a list of orders
   description: Get a list of orders.
   operationId: listOrders

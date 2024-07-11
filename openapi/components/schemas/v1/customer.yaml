@@ -1,0 +1,10 @@
+type: object
+properties:
+  id:
+    type: string
+    format: uuid
+    description: Unique identifier representing a specific customer
+  name:
+    $ref: name.yaml
+  shipToAddress:
+    $ref: address.yaml
